@@ -6,6 +6,6 @@ COPY . /app
 
 RUN pip install --trusted-host pypi.python.org Flask Flask-PyMongo
 
-EXPOSE 5000
+EXPOSE 5001
 
 CMD ["python", "app.py"]
