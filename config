@@ -1,0 +1,43 @@
+apiVersion: v1
+count: 1
+eventTime: null
+firstTimestamp: '2024-11-18T12:23:16Z'
+involvedObject:
+  apiVersion: v1
+  kind: Pod
+  name: falco-0.36.2-jjzwr
+  namespace: falco
+  resourceVersion: '1832528669'
+  uid: e2b6373e-f973-4d86-95d3-2931c2044026
+kind: Event
+lastTimestamp: '2024-11-18T12:23:16Z'
+message: 'The node had condition: [DiskPressure]. '
+metadata:
+  creationTimestamp: '2024-11-18T12:23:16Z'
+  managedFields:
+    - apiVersion: v1
+      fieldsType: FieldsV1
+      fieldsV1:
+        f:count: {}
+        f:firstTimestamp: {}
+        f:involvedObject: {}
+        f:lastTimestamp: {}
+        f:message: {}
+        f:reason: {}
+        f:source:
+          f:component: {}
+          f:host: {}
+        f:type: {}
+      manager: kubelet
+      operation: Update
+      time: '2024-11-18T12:23:16Z'
+  name: falco-0.36.2-jjzwr.18090f852e8ad71c
+  namespace: falco
+  resourceVersion: '1832528673'
+  uid: 75b5ce5f-40b4-4fb3-adea-9e56b4d12ece
+reason: Evicted
+reportingComponent: ''
+reportingInstance: ''
+source:
+  component: kubelet
+  host: kj03-cmf-dev-qrkrc1-14
